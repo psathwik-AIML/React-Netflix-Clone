@@ -1,0 +1,79 @@
+.login {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../../assets/background-banner.jpg");
+  width: 100%;
+  height: 100vh;
+  padding: 20px 8%;
+}
+.login > img {
+  width: 140px;
+}
+.login-form {
+  /* border: 2px solid red; */
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.login-form form {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.login-form form input,
+.login-form form button {
+  width: 70%;
+  margin: 10px;
+  padding: 7px;
+  border: 0;
+  outline: none;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.login-form form button {
+  background-color: rgb(228, 36, 36);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.helper {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 10px;
+}
+.remember input {
+  cursor: pointer;
+}
+#help {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.form-switch {
+  margin: 10px 0;
+}
+.form-switch span {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
