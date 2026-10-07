@@ -1,0 +1,55 @@
+.hero {
+  /* border: 5px solid red; */
+  position: relative;
+}
+.hero-banner {
+  mask-image: linear-gradient(to right, transparent, black 70%);
+  width: 100%;
+}
+.hero-caption {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-left: 8%;
+  /* border: 2px solid red; */
+}
+.hero-caption .title {
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 10px;
+}
+.hero-caption > p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.hero-buttons {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.hero-buttons button {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-buttons .info {
+  background-color: rgb(88, 86, 86);
+  color: #fff;
+}
+.hero-buttons button img {
+  width: 30px;
+}
+.more-cards {
+  /* border: 2px solid red; */
+  padding-left: 8%;
+}
