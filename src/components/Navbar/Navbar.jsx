@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import search from "../../assets/search_icon.svg";
 import profile from "../../assets/profile_img.png";
+import { logout } from "../../firebase";
 function Navbar() {
   const [dark, setDark] = useState(false);
   const handleScroll = () => {
@@ -37,7 +38,9 @@ function Navbar() {
       <div className="nav-right">
         <img src={search} alt="" className="search" />
         <img src={profile} alt="" className="profile-icon" />
-        <p className="sign-out">sign out</p>
+        <p className="sign-out" onClick={logout}>
+          sign out
+        </p>
       </div>
     </div>
   );
